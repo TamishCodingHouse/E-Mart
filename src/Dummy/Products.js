@@ -1,9 +1,17 @@
 // src/data/products.js
+<<<<<<< HEAD
 import Rproduct from "../assets/Images/BgBanner.png"
 import product from "../assets/Images/product.png"
 import product1 from "../assets/Images/product1.png"
 import product2 from "../assets/Images/product2.png"
 import product3 from "../assets/Images/product4.png"
+=======
+import Rproduct from "../assets/BgBanner.png"
+import product from "../assets/product.png"
+import product1 from "../assets/product1.png"
+import product2 from "../assets/product2.png"
+import product3 from "../assets/product4.png"
+>>>>>>> e4c780b7f8f01e4b7afbafc3b9a05be8d44d4ce9
 const products = [
   {
     id: 1,
@@ -14,10 +22,17 @@ const products = [
   },
   {
     id: 2,
+<<<<<<< HEAD
     title: "DAIRY EGGS",
     description: "Milk, cheese, yogurt, butter, and fresh eggs.",
     image: product,
     bgColor: "bg-gray-100",
+=======
+    title: "DAIRY & EGGS",
+    description: "Milk, cheese, yogurt, butter, and fresh eggs.",
+    image: product,
+    bgColor: "bg-white",
+>>>>>>> e4c780b7f8f01e4b7afbafc3b9a05be8d44d4ce9
   },
   {
     id: 3,

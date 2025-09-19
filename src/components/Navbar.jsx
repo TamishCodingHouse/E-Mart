@@ -1,8 +1,13 @@
 import { useState } from "react";
 import { FiMenu, FiX, FiShoppingCart } from "react-icons/fi";
 import { IoMdSearch } from "react-icons/io";
+<<<<<<< HEAD
 import logo from "../assets/Images/logo.png";
 import User from "../assets/Images/User.jpeg";
+=======
+import logo from "../assets/logo.png";
+import User from "../assets/User.jpeg";
+>>>>>>> e4c780b7f8f01e4b7afbafc3b9a05be8d44d4ce9
 import { NavLink, Link } from "react-router-dom";
 
 
@@ -14,7 +19,11 @@ const Navbar = () => {
   };
 
   return (
+<<<<<<< HEAD
     <nav className=" fixed shadow-sm w-full z-20 bg-white/10 backdrop-blur-md  ">
+=======
+    <nav className="bg-transparent shadow-sm fixed w-full z-50">
+>>>>>>> e4c780b7f8f01e4b7afbafc3b9a05be8d44d4ce9
       <div className=" container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
           {/* Logo */}
@@ -23,6 +32,7 @@ const Navbar = () => {
           </div>
 
           {/* Desktop Menu */}
+<<<<<<< HEAD
           <div className="hidden md:flex justify-between items-center space-x-6 ">
             <NavLink to="/" className="text-lg relative inline-block cursor-pointer 
           after:content-[''] after:absolute after:left-0 after:bottom-0 
@@ -50,6 +60,19 @@ const Navbar = () => {
           after:w-0 after:h-[3px] after:bg-green-500 
           after:transition-all after:duration-300 
           hover:after:w-13">
+=======
+          <div className="hidden md:flex justify-between items-center space-x-6">
+            <NavLink to="/" className="hover:text-blue-600 text-lg">
+              Home
+            </NavLink>
+            <NavLink to="/" className="hover:text-blue-600 text-lg">
+              Shop 
+            </NavLink>
+            <NavLink to="/" className="hover:text-blue-600 text-lg">
+              About
+            </NavLink>
+            <NavLink to="/" className="hover:text-blue-600 text-lg">
+>>>>>>> e4c780b7f8f01e4b7afbafc3b9a05be8d44d4ce9
             News
             </NavLink>
             <div className=" p-1  bg-white rounded-sm">

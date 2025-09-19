@@ -11,9 +11,13 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.13",
+<<<<<<< HEAD
     "countdown": "^2.6.0",
     "react": "^19.1.1",
     "react-countdown": "^2.3.6",
+=======
+    "react": "^19.1.1",
+>>>>>>> e4c780b7f8f01e4b7afbafc3b9a05be8d44d4ce9
     "react-dom": "^19.1.1",
     "react-icons": "^5.5.0",
     "react-router-dom": "^7.9.1",
